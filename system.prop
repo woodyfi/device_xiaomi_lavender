@@ -1,0 +1,53 @@
+# QC framework value-adds
+ro.vendor.qti.va_aosp.support=1
+
+# CNE
+persist.vendor.cne.feature=1
+
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
+
+# ART
+dalvik.vm.dex2oat-filter=quicken
+dalvik.vm.image-dex2oat-filter=quicken
+
+# Graphics
+debug.sf.enable_hwc_vds=0
+
+# Dex
+dalvik.vm.dex2oat64.enabled=true
+
+# Logs
+persist.log.tag.AnalyticsService=S
+persist.log.tag.KernelCpuUidActiveTimeReader=S
+persist.log.tag.Tracer=S
+persist.log.tag.NearbySharing=S
+persist.log.tag.IntervalStats=S
+persist.log.tag.CompatibilityChangeReporter=S
+persist.log.tag.SQLiteLog=S
+persist.log.tag.wificond=S
+persist.log.tag.b/223498680=S
+persist.log.tag.TrafficStats=S
+persist.log.tag.ContrastColorUtil=S
+
+# Radio
+DEVICE_PROVISIONED=1
+ril.subscription.types=NV,RUIM
+telephony.lteOnCdmaDevice=1
+
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
+# Watchdog
+ro.hw_timeout_multiplier=3
+
+# Dirac
+ro.audio.soundfx.dirac=true 
+persist.audio.dirac.speaker=true 
+persist.dirac.acs.controller=qem 
+persist.dirac.acs.ignore_error=1 
+persist.dirac.acs.storeSettings=1
