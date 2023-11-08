@@ -118,7 +118,6 @@ debug.stagefright.omx_default_rank=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.auto_latch_unsignaled=false
 debug.sf.disable_backpressure=1
-debug.hwui.renderer=vulkan
 ro.opengles.version=196610
 ro.vendor.display.sensortype=2
 vendor.display.disable_rotator_downscale=1
@@ -249,8 +248,3 @@ dalvik.vm.heapsize=512m
 dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=512k
 dalvik.vm.heapmaxfree=8m
-
-# Graphics
-debug.renderengine.backend=skiaglthreaded
-ro.hardware.egl=adreno
-ro.hardware.vulkan=sdm660
