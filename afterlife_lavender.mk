@@ -13,11 +13,11 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_WIFI_EXT := true
 AFTERLIFE_BUILD_TYPE := OFFICIAL
 AFTERLIFE_MAINTAINER := sweetbtrfly
 AFTERLIFE_GAPPS := true
 AFTERLIFE_CORE := true
-
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -34,6 +34,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
     PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V11.0.5.0.PFGMIXM release-keys"
+    PRIVATE_BUILD_DESC="sunfish-user 13 TQ3A.230805.001.S1 10786265 release-keys"
 
-BUILD_FINGERPRINT :="google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys"
+BUILD_FINGERPRINT :="google/sunfish/sunfish:13/TQ3A.230805.001.S1/10786265:user/release-keys"
