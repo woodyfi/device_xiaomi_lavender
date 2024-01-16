@@ -8,11 +8,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common LineageOS stuff
+# Inherit some common afterlife stuff
 $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+AFTERLIFE_BUILD_TYPE := OFFICIAL
+AFTERLIFE_MAINTAINER := sweetbtrfly
+AFTERLIFE_GAPPS := true
+AFTERLIFE_CORE := true
+
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
