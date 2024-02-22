@@ -14,10 +14,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_WIFI_EXT := true
-AFTERLIFE_BUILD_TYPE := OFFICIAL
-AFTERLIFE_MAINTAINER := sweetbtrfly
-AFTERLIFE_GAPPS := true
-AFTERLIFE_CORE := true
+
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
