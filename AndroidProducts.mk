@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/afterlife_lavender.mk
+    $(LOCAL_DIR)/arrow_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    afterlife_lavender-user \
-    afterlife_lavender-userdebug \
-    afterlife_lavender-eng
+    arrow_lavender-user \
+    arrow_lavender-userdebug \
+    arrow_lavender-eng
